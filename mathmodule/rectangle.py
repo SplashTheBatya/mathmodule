@@ -1,4 +1,3 @@
-
 rectangle_methods_dict = ['trapezium', 'left_rect', 'right_rect']
 
 

@@ -65,9 +65,9 @@ if __name__ == "__main__":
     matrix_2 = [[2, 3, 5],
                 [4, 6, 8],
                 [9, 10, 7]]
-    matrix_dict = {1: {1: 0, 2: 0, 3: 0},
-                   2: {1: 0, 2: 0, 3: 0},
-                   3: {1: 7, 2: 0, 3: 9}}
+    matrix_dict = {1: {1: 1, 2: 2, 3: 3},
+                   2: {1: 4, 2: 5, 3: 6},
+                   3: {1: 7, 2: 8, 3: 9}}
     # print(multiply(matrix, matrix_2))
     # print(multiply(matrix_dict, matrix_2))
     print(multiply(matrix_2, matrix_dict))
